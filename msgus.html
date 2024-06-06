@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+</head>
+ 
+<body>
+    <header>
+        <!-- navigation --->
+        <nav>
+            <!-- logo --->
+            <a href="" class="logo"><span>Sarah</span>Amaylia</a>
+            <!-- menu --->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="op.html">Our Profile</a></li>
+                <li><a href="achmnt.html">Achievements</a></li>
+                <li><a href="msgus.html">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Formulir Pengisian Pesan</h2>
+        <form id="messageForm">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label>Jenis Kelamin:</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Laki-laki</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Perempuan</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="displayMessage" class="display-message">
+            <!-- Pesan yang diketik akan ditampilkan di sini -->
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p>Interested In Using Our Services?</p>
+             
+        <!--paragraph-->
+        <p>I try to work on your project as quickly as possible. Guarantee for revision until you are satisfied with my work.</p>
+        <!--social-->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+         
+        <!--copyright-->
+        <p class="copyright">Copyright by Sarah Amaylia</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
