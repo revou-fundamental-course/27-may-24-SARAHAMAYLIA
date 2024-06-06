@@ -129,7 +129,7 @@ button:active{
     height: 400px;
     position: absolute;
     bottom: 60px;
-    border-radius: 50%;
+    border-radius: 40%;
     left: 80%;
     transform: translateX(-60%);
 }
